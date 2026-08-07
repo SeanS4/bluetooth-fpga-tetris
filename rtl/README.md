@@ -1,7 +1,7 @@
 # RTL Directory
 
 <p align="center">
-  Navigate the SystemVerilog source and build files by design area. All files are original work apart from vga_controller.sv which is sourced.
+  Navigate the SystemVerilog files by design area. All files are original work apart from vga_controller.sv which notes the authors in its comments.
 </p>
 
 <div align="center">
