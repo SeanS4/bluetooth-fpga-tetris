@@ -4,10 +4,6 @@ This system consists of Tetris game logic and HDMI video output logic implemente
 
 ## Demo
 
-<p align="center">
-  <img src="images/tetris_start.png" alt="Tetris start screen" width="300">
-</p>
-
 https://github.com/user-attachments/assets/e061b3cf-7976-40ed-a7c8-6cc633446fcb
 
 ## Features
