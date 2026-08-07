@@ -25,6 +25,8 @@ Inside the FPGA, the asynchronous signals are synchronized and converted into cl
   </tr>
 </table>
 
+Exact mappings can be found towards the bottom of the constraints file in `../rtl/constraints`.
+
 ## Architecture Overview
 
 The 640 × 480 display is represented as a 40 × 30 grid of 16 × 16-pixel cells. The current game state is determined by the 8-bit value stored for each cell in a generated block RAM (BRAM) IP core configured for dual-port access. Game logic uses one BRAM port for board reads and writes, while the renderer independently reads from the second port for continuous video output. The playable Tetris well occupies a subregion of this display grid.
