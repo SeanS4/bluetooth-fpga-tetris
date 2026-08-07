@@ -25,7 +25,7 @@ Inside the FPGA, the asynchronous signals are synchronized and converted into cl
   </tr>
 </table>
 
-Exact mappings can be found towards the bottom of the constraints file in `../rtl/constraints`.
+Exact mappings can be found towards the bottom of the constraints file in [`rtl/constraints/`](../rtl/constraints/).
 
 ## Architecture Overview
 
