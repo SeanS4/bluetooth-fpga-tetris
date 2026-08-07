@@ -18,7 +18,7 @@ The ESP32 input path includes more than simply forwarding voltages through wired
 
 ## Architecture Overview
 
-The FPGA stores the persistent display state in dual-port BRAM as a 40 × 30 grid of 16 × 16-pixel cells. Game logic uses one memory port to update the board, while the rendering path uses the other to generate video continuously. The actively falling piece is rendered as an overlay, and the completed image is mapped to shaded RGB values before being transmitted through the HDMI output IP.
+The FPGA stores the persistent display state in dual-port BRAM as a 40 × 30 grid of 16 × 16-pixel cells. Game logic uses one memory port to update the board, while the rendering path uses the other to generate video continuously. The actively falling piece is rendered as an overlay, and the completed image is mapped to shaded RGB values before being transmitted through the HDMI output IP. See [`docs/architecture.md`](docs/architecture.md) for more depth.
 
 <p align="center">
   <img src="images/tetris_gameboard.png" alt="FPGA Tetris gameplay displayed over HDMI" width="300">
@@ -28,7 +28,7 @@ The FPGA stores the persistent display state in dual-port BRAM as a 40 × 30 gri
 
 ## Verification
 
-Selected BRAM-writing modules, including piece locking and row clearing, were tested using SystemVerilog testbenches and waveform analysis during development. The integrated design was then validated on FPGA hardware using wireless input and HDMI output.
+Selected BRAM-writing modules, including piece locking and row clearing, were tested using SystemVerilog testbenches and waveform analysis during development. The integrated design was then validated on FPGA hardware using wireless input and HDMI output. See [`docs/verification.md`](docs/verification.md) for specific examples.
 
 ## Documentation
 
