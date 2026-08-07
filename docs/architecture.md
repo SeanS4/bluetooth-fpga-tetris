@@ -1,4 +1,3 @@
-```md
 # Architecture
 
 ## Wireless Input and GPIO Bridge
@@ -79,4 +78,3 @@ When the active piece can no longer move downward, the piece-locking module writ
 An occasional rotation request can be lost before it is accepted by the central control FSM. When this occurs, the active piece continues falling normally but does not rotate. This is harmless other than requiring the user to press the rotate button again.
 
 A future revision could hold each rotation request until it is acknowledged by the control unit instead of relying on a single-cycle pulse.
-```
