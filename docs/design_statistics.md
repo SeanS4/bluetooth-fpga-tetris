@@ -6,7 +6,7 @@ The final implementation achieved a compact resource footprint by synthesizing S
 | --- | --- |
 | LUTs | 910 |
 | DSPs | 0 |
-| Memory (BRAM) | 0.50 |
+| BRAM Tiles | 0.50 |
 | Flip-flops | 532 |
 | Latches | 8 |
 | Frequency | 139.33 MHz |
