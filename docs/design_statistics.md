@@ -1,6 +1,6 @@
 # Design Statistics
 
-The final implementation achieved a compact resource footprint by synthesizing SystemVerilog modules which contained the entiritey of the game logic. Vivado reported the following resource utilization, timing, and power results:
+The final implementation achieved a compact resource footprint by synthesizing SystemVerilog modules which contained the entirety of the game logic. Vivado reported the following resource utilization, timing, and power results:
 
 | Metric | Result |
 | --- | --- |
